@@ -1,8 +1,8 @@
-from flask import Flask 
+from flask import Flask, render_template 
 app = Flask(__name__)
 @app.route("/")
 def hello():
-    return "Hello vikas!"
+    return render_template("home.html")
 print(__name__)
 if __name__ == "__main__":
   print("i am inside")
