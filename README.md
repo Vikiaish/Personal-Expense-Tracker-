@@ -1,2 +1,2 @@
 # Personal-Expense-Tracker-
-Personal Expense Tracker web application
+Personal Expense Tracker Web Application
